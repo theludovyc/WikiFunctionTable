@@ -1,0 +1,183 @@
+|-
+|bool
+|[[#is_equal_approx|is_equal_approx]](float a, float b)
+|-
+|bool
+|[[#is_inf|is_inf]](float f)
+|-
+|bool
+|[[#is_instance_valid|is_instance_valid]](Object instance)
+|-
+|bool
+|[[#is_nan|is_nan]](float f)
+|-
+|bool
+|[[#is_zero_approx|is_zero_approx]](float f)
+|-
+|int
+|[[#len|len]](Variant var)
+|-
+|Variant
+|[[#lerp|lerp]](Variant from, Variant to, float weight)
+|-
+|float
+|[[#lerp_angle|lerp_angle]](float from, float to, float weight)
+|-
+|float
+|[[#linear2db|linear2db]](float f)
+|-
+|Resource
+|[[#load|load]](String path)
+|-
+|float
+|[[#log|log]](float s)
+|-
+|float
+|[[#max|max]](float a, float b)
+|-
+|float
+|[[#min|min]](float a, float b)
+|-
+|float
+|[[#move_toward|move_toward]](float from, float to, float delta)
+|-
+|int
+|[[#nearest_po2|nearest_po2]](int i)
+|-
+|int
+|[[#ord|ord]](String s)
+|-
+|Variant
+|[[#parse_json|parse_json]](String path)
+|-
+|Vector2
+|[[#polar2cartesian|polar2cartesian]](float r, float th)
+|-
+|int
+|[[#posmod|posmod]](int a, int b)
+|-
+|float
+|[[#pow|pow]](float base, float exp)
+|-
+|Resource
+|[[#preload|preload]](String path)
+|-
+|void
+|[[#print|print]](...)
+|-
+|void
+|[[#print_debug|print_debug]](...)
+|-
+|void
+|[[#print_stack|print_stack]]()
+|-
+|void
+|[[#printerr|printerr]](...)
+|-
+|void
+|[[#printraw|printraw]](...)
+|-
+|void
+|[[#prints|prints]](...)
+|-
+|void
+|[[#printt|printt]](...)
+|-
+|void
+|[[#push_error|push_error]](String message)
+|-
+|void
+|[[#push_warning|push_warning]](String message)
+|-
+|float
+|[[#rad2deg|rad2deg]](float rad)
+|-
+|float
+|[[#rand_range|rand_range]](float from, float to)
+|-
+|Array
+|[[#rand_seed|rand_seed]](int seed)
+|-
+|float
+|[[#randf|randf]]()
+|-
+|int
+|[[#randi|randi]]()
+|-
+|void
+|[[#randomize|randomize]]()
+|-
+|Array
+|[[#range|range]](...)
+|-
+|float
+|[[#range_lerp|range_lerp]](float value, float istart, float istop, float ostart, float ostop)
+|-
+|float
+|[[#round|round]](float f)
+|-
+|void
+|[[#seed|seed]](int seed)
+|-
+|float
+|[[#sign|sign]](float f)
+|-
+|float
+|[[#sin|sin]](float f)
+|-
+|float
+|[[#sinh|sinh]](float f)
+|-
+|float
+|[[#smoothstep|smoothstep]](float from, float to, float weight)
+|-
+|float
+|[[#sqrt|sqrt]](float f)
+|-
+|int
+|[[#step_decimals|step_decimals]](float step)
+|-
+|float
+|[[#stepify|stepify]](float s, float step)
+|-
+|String
+|[[#str|str]](...)
+|-
+|Variant
+|[[#str2var|str2var]](String s)
+|-
+|float
+|[[#tan|tan]](float f)
+|-
+|float
+|[[#tanh|tanh]](float f)
+|-
+|String
+|[[#to_json|to_json]](Variant var)
+|-
+|bool
+|[[#type_exists|type_exists]](String type)
+|-
+|int
+|[[#typeof|typeof]](Variant what)
+|-
+|String
+|[[#validate_json|validate_json]](String path)
+|-
+|PackedByteArray
+|[[#var2bytes|var2bytes]](Variant var, boolfull_objects=false)
+|-
+|String
+|[[#var2str|var2str]](Variant var)
+|-
+|WeakRef
+|[[#weakref|weakref]](Object obj)
+|-
+|float
+|[[#wrapf|wrapf]](float value, float min, float max)
+|-
+|int
+|[[#wrapi|wrapi]](int value, int min, int max)
+|-
+|GDScriptFunctionState
+|[[#yield|yield]](Object object=null, String signal="")

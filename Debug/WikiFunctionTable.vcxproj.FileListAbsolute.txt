@@ -1,0 +1,2 @@
+D:\Projects\Cpp\WikiFunctionTable\Debug\WikiFunctionTable.exe
+D:\Projects\Cpp\WikiFunctionTable\Debug\WikiFunctionTable.pdb
